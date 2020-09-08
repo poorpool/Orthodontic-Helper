@@ -25,18 +25,30 @@ class MainActivity : AppCompatActivity() {
             it.setDisplayHomeAsUpEnabled(true)
             it.setHomeAsUpIndicator(R.drawable.ic_menu)
         }
+
+        val menu = navView.menu
+
+        for (i in 10 downTo 1) {
+            menu.add(i, i, i, "第${i}副牙套")
+        }
+
+
+
+
+
+        /*
         initBraces()
         val layoutManager = LinearLayoutManager(this)
         recyclerView.layoutManager = layoutManager
         val adapter = BraceAdapter(braceList)
-        recyclerView.adapter = adapter
+        recyclerView.adapter = adapter*/
     }
-
+/*
     private fun initBraces() {
         repeat(5) {
             braceList.add(Brace("第一副", Date(), false))
         }
-    }
+    }*/
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.toolbar, menu)
