@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -47,6 +48,25 @@
             android:textSize="18sp"
             android:text="2020-03-06"/>
     </LinearLayout>
+
+    <net.yxchen.orthodontichelper.circleprogress.CircleProgress
+        android:id="@+id/circle_progress_bar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:antiAlias="true"
+        app:arcWidth="@dimen/small"
+        app:bgArcColor="@color/colorAccent"
+        app:bgArcWidth="@dimen/small"
+        app:hint="今日摘牙套时间"
+        app:hintSize="15sp"
+        app:maxValue="120"
+        app:startAngle="135"
+        app:sweepAngle="270"
+        app:unit="分钟"
+        app:unitSize="15sp"
+        app:value="10000"
+        app:valueSize="25sp" />
 
     <Button
         android:layout_width="wrap_content"

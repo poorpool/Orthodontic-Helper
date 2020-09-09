@@ -4,4 +4,6 @@
 
 希望不要烂尾（逃
 
+进度条使用 [CircleProgress](https://github.com/MyLifeMyTravel/CircleProgress) 制作的。
+
 LICENSE: LGPL
