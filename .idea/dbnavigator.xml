@@ -23,11 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="290df386-9cd3-4992-ad15-a3e6304088c6">
-        <schema name="main" object-types="table, constraint, index, dataset trigger, view, column" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="290df386-9cd3-4992-ad15-a3e6304088c6">
@@ -35,9 +31,7 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="290df386-9cd3-4992-ad15-a3e6304088c6" object-ref="schemas/main/tables/Brace" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="290df386-9cd3-4992-ad15-a3e6304088c6" />
